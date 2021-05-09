@@ -1,0 +1,25 @@
+{
+  "name": "webclient",
+  "version": "0.0.1",
+  "description": "Abstraction for Javascript http functions",
+  "main": "src/webClient.js",
+  "scripts": {
+    "start": "node ./src/webClient.js",
+    "lint": "eslint src/. test/. --config .eslintrc.json",
+    "lintfix": "eslint src/. test/. --config .eslintrc.json --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henderbj/webClient.git"
+  },
+  "author": "henderbj",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/henderbj/webClient/issues"
+  },
+  "homepage": "https://github.com/henderbj/webClient#readme",
+  "devDependencies": {
+    "eslint": "^7.26.0"
+  }
+}
